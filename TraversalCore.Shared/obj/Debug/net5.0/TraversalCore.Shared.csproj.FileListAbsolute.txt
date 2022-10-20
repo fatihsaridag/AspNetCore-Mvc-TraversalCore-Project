@@ -1,0 +1,11 @@
+C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Shared\bin\Debug\net5.0\TraversalCore.Shared.deps.json
+C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Shared\bin\Debug\net5.0\TraversalCore.Shared.dll
+C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Shared\bin\Debug\net5.0\ref\TraversalCore.Shared.dll
+C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Shared\bin\Debug\net5.0\TraversalCore.Shared.pdb
+C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Shared\obj\Debug\net5.0\TraversalCore.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Shared\obj\Debug\net5.0\TraversalCore.Shared.AssemblyInfoInputs.cache
+C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Shared\obj\Debug\net5.0\TraversalCore.Shared.AssemblyInfo.cs
+C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Shared\obj\Debug\net5.0\TraversalCore.Shared.csproj.CoreCompileInputs.cache
+C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Shared\obj\Debug\net5.0\TraversalCore.Shared.dll
+C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Shared\obj\Debug\net5.0\ref\TraversalCore.Shared.dll
+C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Shared\obj\Debug\net5.0\TraversalCore.Shared.pdb
