@@ -5,15 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TraversalCore.Data.EntityFramework.Repository.Abstract;
+using TraversalCore.Data.Repository;
 using TraversalCore.Entity.Concrete;
-using TraversalCore.Shared.Data.Repository;
 
 namespace TraversalCore.Data.EntityFramework.Repository.Concrete
 {
     public class EfTestimonialRepository : GenericRepository<Testimonial>, ITestimonialRepository
     {
-        public EfTestimonialRepository(DbContext context) : base(context)
-        {
-        }
+         
     }
 }
