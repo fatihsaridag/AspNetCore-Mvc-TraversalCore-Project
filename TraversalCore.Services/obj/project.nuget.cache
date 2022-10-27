@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4bJpeYMNbypDyUrvdF2jH/WM7ge+yYsfuBULNZ1KdPMQAjkmi5EI2WKAHhQ7+3JGtZo2BBxMeJaa79lhPeNkvw==",
+  "dgSpecHash": "2ED1r8Ty5OO4hvNoR76Lzf1NFJ6UpAEBmr18AJ7iE50mW9FqToEc1B+HOoKJJy4RabXuH7yGPAdkuOeLINIbDA==",
   "success": true,
   "projectFilePath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Services\\TraversalCore.Services.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\fsari\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\fsari\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\fsari\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\fsari\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\fsari\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
