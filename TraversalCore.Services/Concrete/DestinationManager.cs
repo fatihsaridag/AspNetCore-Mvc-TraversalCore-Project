@@ -30,7 +30,7 @@ namespace TraversalCore.Services.Concrete
 
         public Destination TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _destinationRepository.GetById(id);
         }
 
         public List<Destination> TGetList()
