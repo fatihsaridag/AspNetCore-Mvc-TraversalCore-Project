@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using TraversalCore.Entity.Concrete;
 
 namespace TraversalCore.Data.EntityFramework.Contexts
 {
-    public class Context : DbContext
+    public class Context : IdentityDbContext<AppUser,AppRole,int>
     {
         public DbSet<About> Abouts { get; set; }
         public DbSet<About2> Abouts2 { get; set; }
@@ -20,7 +21,7 @@ namespace TraversalCore.Data.EntityFramework.Contexts
         public DbSet<Newsletter> Newsletters { get; set; }
         public DbSet<SubAbout> SubAbouts { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
-
+        public DbSet<Comment> Comments { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
