@@ -12,6 +12,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using TraversalCore.Data.EntityFramework.Contexts;
 using TraversalCore.Entity.Concrete;
+using TraversalCore.Mvc.Models;
 
 namespace TraversalCore.Mvc
 {
@@ -28,7 +29,7 @@ namespace TraversalCore.Mvc
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<Context>();
-            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>();
+            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
             services.AddControllersWithViews();
 
             services.AddMvc(config =>
@@ -66,6 +67,16 @@ namespace TraversalCore.Mvc
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                  name: "areas",
+                  pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+                );
+            });
+
         }
     }
 }
