@@ -479,6 +479,38 @@ namespace TraversalCore.Data.Migrations
                     b.ToTable("Newsletters");
                 });
 
+            modelBuilder.Entity("TraversalCore.Entity.Concrete.Reservation", b =>
+                {
+                    b.Property<int>("ReservationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AppUserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Destination")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PersonCount")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ReservationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ReservationStatus")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ReservationId");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("Reservations");
+                });
+
             modelBuilder.Entity("TraversalCore.Entity.Concrete.SubAbout", b =>
                 {
                     b.Property<int>("SubAboutId")
@@ -581,6 +613,22 @@ namespace TraversalCore.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Destination");
+                });
+
+            modelBuilder.Entity("TraversalCore.Entity.Concrete.Reservation", b =>
+                {
+                    b.HasOne("TraversalCore.Entity.Concrete.AppUser", "AppUser")
+                        .WithMany("Reservations")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
+            modelBuilder.Entity("TraversalCore.Entity.Concrete.AppUser", b =>
+                {
+                    b.Navigation("Reservations");
                 });
 
             modelBuilder.Entity("TraversalCore.Entity.Concrete.Destination", b =>

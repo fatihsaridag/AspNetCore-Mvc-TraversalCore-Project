@@ -189,3 +189,5 @@ C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Mvc\obj\Debug\net5.
 C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Member\Views\Shared\_RightbarPartial.cshtml.g.cs
 C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Member\Views\Shared\_ScriptPartial.cshtml.g.cs
 C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Member\Views\Destination\Index.cshtml.g.cs
+C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Member\Views\Profile\Index.cshtml.g.cs
+C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Member\Views\Reservation\NewReservation.cshtml.g.cs

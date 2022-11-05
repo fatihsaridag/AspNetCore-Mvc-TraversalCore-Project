@@ -13,6 +13,13 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
+#line 2 "C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Mvc\Areas\Member\Views\_ViewImports.cshtml"
+using TraversalCore.Mvc.Areas.Member.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\fsari\source\repos\TraversalCoreProje\TraversalCore.Mvc\Areas\Member\Views\Destination\Index.cshtml"
 using TraversalCore.Entity.Concrete;
 
@@ -20,7 +27,7 @@ using TraversalCore.Entity.Concrete;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"357251003ffbbdd7a701091d9e670884acd5dc7c", @"/Areas/Member/Views/Destination/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"23ac09be4bcfaa7f9829a01d1a134874eaae1f3b", @"/Areas/Member/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f516d5278e357c91189fbaf48156db294ca95195", @"/Areas/Member/Views/_ViewImports.cshtml")]
     public class Areas_Member_Views_Destination_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Destination>>
     {
         #pragma warning disable 1998
