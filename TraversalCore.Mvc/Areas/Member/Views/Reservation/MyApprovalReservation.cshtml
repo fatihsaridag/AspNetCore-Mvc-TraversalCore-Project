@@ -1,5 +1,4 @@
-﻿@using TraversalCore.Entity.Concrete
-@model List<Reservation>
+﻿@model List<Reservation>
 
 @{
     ViewData["Title"] = "MyApprovalReservation";
@@ -7,7 +6,6 @@
 }
 
 <h1>Onay Bekleyen Rezervasyonlar</h1>
-<h2>@ViewBag.v</h2>
 <table class="table table-bordered">
 
     <tr>
@@ -21,7 +19,7 @@
     {
         <tr>
             <td>@item.ReservationId</td>
-            <td>@item.Destination</td>
+            <td>@item.Destination.City</td>*
             <td>@item.PersonCount</td>
             <td>@item.ReservationDate</td>
             <td>@item.ReservationStatus</td>

@@ -17,9 +17,19 @@ namespace TraversalCore.Services.Concrete
             _reservationRepository = reservationRepository;
         }
 
-        public List<Reservation> GetListApprovalReservation(int Id)
+        public List<Reservation> GetListWithReservationByAccepted(int Id)
         {
-            return _reservationRepository.GetListByFilter(x => x.AppUserId == Id);
+            return _reservationRepository.GetListWithReservationByAccepted(Id);
+        }
+
+        public List<Reservation> GetListWithReservationByPrevious(int Id)
+        {
+            return _reservationRepository.GetListWithReservationByPrevious(Id);
+        }
+
+        public List<Reservation> GetListWithReservationByWaitApproval(int Id)
+        {
+            return _reservationRepository.GetListWithReservationByWaitApproval(Id);
         }
 
         public void TAdd(Reservation entity)

@@ -11,7 +11,7 @@
         "projectName": "TraversalCore.Shared",
         "projectPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Shared\\TraversalCore.Shared.csproj",
         "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fatih\\Source\\Repos\\TraversalCore\\TraversalCore.Shared\\obj\\",
+        "outputPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",

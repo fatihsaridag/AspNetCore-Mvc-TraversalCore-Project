@@ -9,7 +9,8 @@ namespace TraversalCore.Services.Abstract
 {
     public interface IReservationService : IGenericService<Reservation>
     {
-        List<Reservation> GetListApprovalReservation(int Id);
-
+        List<Reservation> GetListWithReservationByWaitApproval(int Id);
+        List<Reservation> GetListWithReservationByAccepted(int Id);
+        List<Reservation> GetListWithReservationByPrevious(int Id);
     }
 }
