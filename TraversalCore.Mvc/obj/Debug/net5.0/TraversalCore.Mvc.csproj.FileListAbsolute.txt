@@ -387,3 +387,5 @@ C:\Users\fatih\Source\Repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\ref
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Member\Views\Reservation\MyCurrentReservation.cshtml.g.cs
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Member\Views\Reservation\MyOldReservation.cshtml.g.cs
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Member\Views\Reservation\MyApprovalReservation.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Member\Views\Dashboard\Index.cshtml.g.cs

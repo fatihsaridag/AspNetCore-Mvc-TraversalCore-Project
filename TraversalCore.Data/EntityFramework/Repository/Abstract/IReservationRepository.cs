@@ -10,5 +10,8 @@ namespace TraversalCore.Data.EntityFramework.Repository.Abstract
 {
      public interface IReservationRepository : IGenericRepository<Reservation>
     {
+        List<Reservation> GetListWithReservationByWaitApproval(int id);
+        List<Reservation> GetListWithReservationByAccepted(int id);
+        List<Reservation> GetListWithReservationByPrevious(int id);
     }
 }

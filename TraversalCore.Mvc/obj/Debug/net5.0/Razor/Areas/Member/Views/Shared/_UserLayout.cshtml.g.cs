@@ -19,8 +19,15 @@ using TraversalCore.Mvc.Areas.Member.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\Areas\Member\Views\_ViewImports.cshtml"
+using TraversalCore.Entity.Concrete;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"157f311dca0619cf8cf2b7c150efe71e682cd7be", @"/Areas/Member/Views/Shared/_UserLayout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f516d5278e357c91189fbaf48156db294ca95195", @"/Areas/Member/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"04d438cb233a283a55a7199ab043b2bc445af39e", @"/Areas/Member/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Member_Views_Shared__UserLayout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -67,7 +74,7 @@ Write(await Html.PartialAsync("_NavbarPartial"));
 #line hidden
 #nullable disable
             WriteLiteral("\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "157f311dca0619cf8cf2b7c150efe71e682cd7be4053", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "157f311dca0619cf8cf2b7c150efe71e682cd7be4270", async() => {
                 WriteLiteral("\r\n    <main class=\"main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg \">\r\n        <!-- Navbar -->\r\n        ");
 #nullable restore
 #line 10 "C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\Areas\Member\Views\Shared\_UserLayout.cshtml"

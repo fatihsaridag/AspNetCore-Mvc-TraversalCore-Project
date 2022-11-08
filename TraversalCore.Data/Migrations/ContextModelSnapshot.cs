@@ -492,8 +492,8 @@ namespace TraversalCore.Data.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Destination")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("DestinationId")
+                        .HasColumnType("int");
 
                     b.Property<string>("PersonCount")
                         .HasColumnType("nvarchar(max)");
@@ -507,6 +507,8 @@ namespace TraversalCore.Data.Migrations
                     b.HasKey("ReservationId");
 
                     b.HasIndex("AppUserId");
+
+                    b.HasIndex("DestinationId");
 
                     b.ToTable("Reservations");
                 });
@@ -623,7 +625,15 @@ namespace TraversalCore.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("TraversalCore.Entity.Concrete.Destination", "Destination")
+                        .WithMany("Reservations")
+                        .HasForeignKey("DestinationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("AppUser");
+
+                    b.Navigation("Destination");
                 });
 
             modelBuilder.Entity("TraversalCore.Entity.Concrete.AppUser", b =>
@@ -634,6 +644,8 @@ namespace TraversalCore.Data.Migrations
             modelBuilder.Entity("TraversalCore.Entity.Concrete.Destination", b =>
                 {
                     b.Navigation("Comments");
+
+                    b.Navigation("Reservations");
                 });
 #pragma warning restore 612, 618
         }

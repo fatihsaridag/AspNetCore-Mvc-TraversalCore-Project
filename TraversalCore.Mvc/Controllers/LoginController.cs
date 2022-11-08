@@ -46,7 +46,7 @@ namespace TraversalCore.Mvc.Controllers
                 var result = await _userManager.CreateAsync(appUser, userRegisterViewModel.Password);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("SingIn");
+                    return RedirectToAction("SingIn.cshtml");
                 }
                 else
                 {
