@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Mvc\\TraversalCore.Mvc.csproj": {}
+    "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Mvc\\TraversalCore.Mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Data\\TraversalCore.Data.csproj": {
+    "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Data\\TraversalCore.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Data\\TraversalCore.Data.csproj",
+        "projectUniqueName": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Data\\TraversalCore.Data.csproj",
         "projectName": "TraversalCore.Data",
-        "projectPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Data\\TraversalCore.Data.csproj",
-        "packagesPath": "C:\\Users\\fsari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Data\\obj\\",
+        "projectPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Data\\TraversalCore.Data.csproj",
+        "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fsari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Entity\\TraversalCore.Entity.csproj": {
-                "projectPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Entity\\TraversalCore.Entity.csproj"
+              "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Entity\\TraversalCore.Entity.csproj": {
+                "projectPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Entity\\TraversalCore.Entity.csproj"
               },
-              "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Shared\\TraversalCore.Shared.csproj": {
-                "projectPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Shared\\TraversalCore.Shared.csproj"
+              "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Shared\\TraversalCore.Shared.csproj": {
+                "projectPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Shared\\TraversalCore.Shared.csproj"
               }
             }
           }
@@ -81,7 +78,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -90,24 +88,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Entity\\TraversalCore.Entity.csproj": {
+    "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Entity\\TraversalCore.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Entity\\TraversalCore.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Entity\\TraversalCore.Entity.csproj",
         "projectName": "TraversalCore.Entity",
-        "projectPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Entity\\TraversalCore.Entity.csproj",
-        "packagesPath": "C:\\Users\\fsari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Entity\\obj\\",
+        "projectPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Entity\\TraversalCore.Entity.csproj",
+        "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Entity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fsari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -121,8 +116,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Shared\\TraversalCore.Shared.csproj": {
-                "projectPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Shared\\TraversalCore.Shared.csproj"
+              "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Shared\\TraversalCore.Shared.csproj": {
+                "projectPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Shared\\TraversalCore.Shared.csproj"
               }
             }
           }
@@ -152,7 +147,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -161,24 +157,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Mvc\\TraversalCore.Mvc.csproj": {
+    "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Mvc\\TraversalCore.Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Mvc\\TraversalCore.Mvc.csproj",
+        "projectUniqueName": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Mvc\\TraversalCore.Mvc.csproj",
         "projectName": "TraversalCore.Mvc",
-        "projectPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Mvc\\TraversalCore.Mvc.csproj",
-        "packagesPath": "C:\\Users\\fsari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Mvc\\obj\\",
+        "projectPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Mvc\\TraversalCore.Mvc.csproj",
+        "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Mvc\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fsari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -192,11 +185,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Entity\\TraversalCore.Entity.csproj": {
-                "projectPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Entity\\TraversalCore.Entity.csproj"
+              "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Entity\\TraversalCore.Entity.csproj": {
+                "projectPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Entity\\TraversalCore.Entity.csproj"
               },
-              "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Services\\TraversalCore.Services.csproj": {
-                "projectPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Services\\TraversalCore.Services.csproj"
+              "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Services\\TraversalCore.Services.csproj": {
+                "projectPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Services\\TraversalCore.Services.csproj"
               }
             }
           }
@@ -238,7 +231,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -250,24 +244,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Services\\TraversalCore.Services.csproj": {
+    "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Services\\TraversalCore.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Services\\TraversalCore.Services.csproj",
+        "projectUniqueName": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Services\\TraversalCore.Services.csproj",
         "projectName": "TraversalCore.Services",
-        "projectPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Services\\TraversalCore.Services.csproj",
-        "packagesPath": "C:\\Users\\fsari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Services\\obj\\",
+        "projectPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Services\\TraversalCore.Services.csproj",
+        "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fsari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -281,11 +272,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Data\\TraversalCore.Data.csproj": {
-                "projectPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Data\\TraversalCore.Data.csproj"
+              "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Data\\TraversalCore.Data.csproj": {
+                "projectPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Data\\TraversalCore.Data.csproj"
               },
-              "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Shared\\TraversalCore.Shared.csproj": {
-                "projectPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Shared\\TraversalCore.Shared.csproj"
+              "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Shared\\TraversalCore.Shared.csproj": {
+                "projectPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Shared\\TraversalCore.Shared.csproj"
               }
             }
           }
@@ -315,7 +306,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -324,24 +316,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Shared\\TraversalCore.Shared.csproj": {
+    "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Shared\\TraversalCore.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Shared\\TraversalCore.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Shared\\TraversalCore.Shared.csproj",
         "projectName": "TraversalCore.Shared",
-        "projectPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Shared\\TraversalCore.Shared.csproj",
-        "packagesPath": "C:\\Users\\fsari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fsari\\source\\repos\\TraversalCoreProje\\TraversalCore.Shared\\obj\\",
+        "projectPath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Shared\\TraversalCore.Shared.csproj",
+        "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fatih\\Source\\Repos\\TraversalCore\\TraversalCore.Shared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fsari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -378,7 +367,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -387,7 +377,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
