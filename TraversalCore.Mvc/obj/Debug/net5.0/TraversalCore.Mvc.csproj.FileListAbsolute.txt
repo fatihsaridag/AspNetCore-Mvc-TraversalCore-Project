@@ -392,3 +392,5 @@ C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Raz
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Member\Views\Shared\Components\_ProfileInformation\Default.cshtml.g.cs
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Member\Views\Shared\Components\_GuideList\Default.cshtml.g.cs
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Member\Views\Shared\Components\_PlatformSetting\Default.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Destination\Index.cshtml.g.cs
