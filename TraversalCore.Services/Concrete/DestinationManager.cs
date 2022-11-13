@@ -20,12 +20,12 @@ namespace TraversalCore.Services.Concrete
 
         public void TAdd(Destination entity)
         {
-            throw new NotImplementedException();
+            _destinationRepository.Insert(entity);
         }
 
         public void TDelete(Destination entity)
         {
-            throw new NotImplementedException();
+            _destinationRepository.Delete(entity);
         }
 
         public Destination TGetById(int id)
@@ -40,7 +40,7 @@ namespace TraversalCore.Services.Concrete
 
         public void TUpdate(Destination entity)
         {
-            throw new NotImplementedException();
+            _destinationRepository.Update(entity);
         }
     }
 }
