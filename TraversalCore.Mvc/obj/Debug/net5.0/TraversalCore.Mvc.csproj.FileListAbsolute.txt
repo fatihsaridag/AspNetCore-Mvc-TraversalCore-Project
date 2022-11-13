@@ -394,3 +394,13 @@ C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Raz
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Member\Views\Shared\Components\_PlatformSetting\Default.cshtml.g.cs
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Destination\Index.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Destination\AddDestination.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Destination\UpdateDestination.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_HeaderPartial.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_AppBrandDemoPartial.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_SideBarPartial.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_NavbarPartial.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_FooterPartial.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_ScriptPartial.cshtml.g.cs
