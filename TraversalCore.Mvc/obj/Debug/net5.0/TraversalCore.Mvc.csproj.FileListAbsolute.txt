@@ -412,3 +412,4 @@ C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Raz
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Components\_DestinationStatistic\Default.cshtml.g.cs
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Components\_DestinationStatistic2\Default.cshtml.g.cs
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Components\_AdminGuideList\Default.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Comment\Index.cshtml.g.cs

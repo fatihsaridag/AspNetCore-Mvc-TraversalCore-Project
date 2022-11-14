@@ -10,5 +10,6 @@ namespace TraversalCore.Data.EntityFramework.Repository.Abstract
 {
     public interface ICommentRepository : IGenericRepository<Comment>
     {
+        public List<Comment> GetListCommentWithDestination();
     }
 }
