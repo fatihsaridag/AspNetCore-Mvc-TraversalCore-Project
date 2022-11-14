@@ -27,17 +27,17 @@ namespace TraversalCore.Services.Concrete
 
         public void TDelete(Comment entity)
         {
-            throw new NotImplementedException();
+            _commentRepository.Delete(entity);
         }
 
         public Comment TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _commentRepository.GetById(id);
         }
 
         public List<Comment> TGetList()
         {
-            throw new NotImplementedException();
+            return _commentRepository.GetList();
         }
 
         public void TUpdate(Comment entity)
@@ -50,5 +50,9 @@ namespace TraversalCore.Services.Concrete
             return _commentRepository.GetListByFilter(x => x.DestinationId == id);
         }
 
+        public List<Comment> TGetListCommentWithDestination()
+        {
+            return _commentRepository.GetListCommentWithDestination();
+        }
     }
 }

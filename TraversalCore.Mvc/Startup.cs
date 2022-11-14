@@ -11,8 +11,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TraversalCore.Data.EntityFramework.Contexts;
+using TraversalCore.Data.EntityFramework.Repository.Abstract;
+using TraversalCore.Data.EntityFramework.Repository.Concrete;
 using TraversalCore.Entity.Concrete;
 using TraversalCore.Mvc.Models;
+using TraversalCore.Services.Abstract;
+using TraversalCore.Services.Concrete;
 
 namespace TraversalCore.Mvc
 {
@@ -31,6 +35,9 @@ namespace TraversalCore.Mvc
             services.AddDbContext<Context>();
             services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
             services.AddControllersWithViews();
+            services.AddScoped<ICommentService, CommentManager>();
+            services.AddScoped<ICommentRepository, EfCommentRepository>();
+
 
             services.AddMvc(config =>
             {
