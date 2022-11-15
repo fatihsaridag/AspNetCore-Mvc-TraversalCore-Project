@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TraversalCore.Data.EntityFramework.Repository.Concrete;
 using TraversalCore.Entity.Concrete;
+using TraversalCore.Services.Abstract;
 using TraversalCore.Services.Concrete;
 
 namespace TraversalCore.Mvc.Areas.Admin.Controllers
@@ -8,10 +9,15 @@ namespace TraversalCore.Mvc.Areas.Admin.Controllers
     [Area("Admin")]
     public class DestinationController : Controller
     {
-        DestinationManager destinationManager = new DestinationManager(new EfDestinationRepository());
+        private readonly IDestinationService _destinationService;
+        public DestinationController(IDestinationService destinationService)
+        {
+            _destinationService = destinationService;
+        }
+
         public IActionResult Index()
         {
-            var values = destinationManager.TGetList();
+            var values = _destinationService.TGetList();
             return View(values);
         }
 
@@ -24,14 +30,14 @@ namespace TraversalCore.Mvc.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult AddDestination(Destination destination)
         {
-            destinationManager.TAdd(destination);
+            _destinationService.TAdd(destination);
             return RedirectToAction("Index");
         }
 
         public IActionResult DeleteDestination(int id)
         {
-            var destination = destinationManager.TGetById(id);
-            destinationManager.TDelete(destination);
+            var destination = _destinationService.TGetById(id);
+            _destinationService.TDelete(destination);
             return RedirectToAction("Index");
 
         }
@@ -40,14 +46,14 @@ namespace TraversalCore.Mvc.Areas.Admin.Controllers
         [HttpGet]
         public  IActionResult UpdateDestination(int id)
         {
-            var destination = destinationManager.TGetById(id);
+            var destination = _destinationService.TGetById(id);
             return View(destination);
         }
 
         [HttpPost]
         public IActionResult UpdateDestination(Destination destination)
         {
-            destinationManager.TUpdate(destination);
+            _destinationService.TUpdate(destination);
             return RedirectToAction("Index");
         }
 
