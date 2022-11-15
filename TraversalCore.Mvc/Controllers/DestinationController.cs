@@ -5,18 +5,23 @@ using System.Linq;
 using System.Threading.Tasks;
 using TraversalCore.Data.EntityFramework.Repository.Concrete;
 using TraversalCore.Entity.Concrete;
+using TraversalCore.Services.Abstract;
 using TraversalCore.Services.Concrete;
 
 namespace TraversalCore.Mvc.Controllers
 {
     public class DestinationController : Controller
     {
-        DestinationManager destinationManager = new DestinationManager(new EfDestinationRepository());
+        private readonly IDestinationService _destinationService;
 
+        public DestinationController(IDestinationService destinationService)
+        {
+            _destinationService = destinationService;
+        }
 
         public IActionResult Index()
         {
-            var values = destinationManager.TGetList();
+            var values = _destinationService.TGetList();
             return View(values);
         }
 
@@ -25,7 +30,7 @@ namespace TraversalCore.Mvc.Controllers
         {
 
             ViewBag.i = id;
-            var values = destinationManager.TGetById(id);
+            var values = _destinationService.TGetById(id);
             return View(values);
         }
 

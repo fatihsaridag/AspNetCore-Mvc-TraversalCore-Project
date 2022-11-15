@@ -1,0 +1,54 @@
+﻿@model List<Guide>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    img{
+        border-radius:50%;
+    }
+
+</style>
+
+<h3>Rehber Listesi </h3>
+
+<table class="table table-bordered table-striped">
+    <tr>
+        <th>#</th>
+        <th>Görsel</th>
+        <th>Ad Soyad</th>
+        <th>Açıklama</th>
+        <th>Durum</th>
+        <th>Düzenle</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.GuideId</td>
+            <td><img height="50" width="50" src="@item.Image"/></td>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+
+            @{
+                if (item.Status == true)
+                {
+                            <td><a href="#" class="btn btn-outline-warning">Pasif Yap</a></td>
+                }
+                else
+                {
+                            <td><a href="#" class="btn btn-outline-success">Pasif Yap</a></td>
+
+                }
+            }
+
+            <td><a href="/Admin/Guide/Edit" class="btn btn-outline-primary">Düzenle</a></td>
+            
+        </tr>
+    
+    }
+</table>
+
+<a href="/Admin/Guide/AddGuide" class="btn btn-outline-primary">Yeni Rehber Girişi</a>
