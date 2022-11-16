@@ -204,6 +204,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.97.0, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.2.2, )"
@@ -233,6 +241,10 @@
             "Serilog.Extensions.Logging.File": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "iTextSharp.LGPLv2.Core": {
+              "target": "Package",
+              "version": "[1.9.2, )"
             }
           },
           "imports": [
