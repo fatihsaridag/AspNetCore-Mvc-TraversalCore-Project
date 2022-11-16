@@ -20,17 +20,17 @@ namespace TraversalCore.Services.Concrete
 
         public void TAdd(Guide entity)
         {
-            throw new NotImplementedException();
+            _guideRepository.Insert(entity);
         }
 
         public void TDelete(Guide entity)
         {
-            throw new NotImplementedException();
+            _guideRepository.Delete(entity);
         }
 
         public Guide TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _guideRepository.GetById(id);
         }
 
         public List<Guide> TGetList()
@@ -40,7 +40,7 @@ namespace TraversalCore.Services.Concrete
 
         public void TUpdate(Guide entity)
         {
-            throw new NotImplementedException();
+            _guideRepository.Update(entity);
         }
     }
 }
