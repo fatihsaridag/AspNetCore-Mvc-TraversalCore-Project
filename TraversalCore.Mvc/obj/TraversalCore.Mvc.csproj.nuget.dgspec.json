@@ -220,6 +220,10 @@
               "target": "Package",
               "version": "[11.2.2, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.4.2, )"
+            },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -313,6 +317,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.2.2, )"

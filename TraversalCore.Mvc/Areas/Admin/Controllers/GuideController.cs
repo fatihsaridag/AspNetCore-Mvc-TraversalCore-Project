@@ -7,6 +7,7 @@ using TraversalCore.Services.ValidationRules;
 namespace TraversalCore.Mvc.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Route("Admin/[controller]/[action]/{id?}")]
     public class GuideController : Controller
     {
         private readonly IGuideService _guideService;
@@ -61,14 +62,24 @@ namespace TraversalCore.Mvc.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
 
+
         public IActionResult ChangeToTrue(int id)
         {
-            return RedirectToAction("Index");
+            _guideService.TChangeToTrueByGuide(id);
+            return RedirectToAction("Index","Guide", new {area = "Admin"});
         }
 
         public IActionResult ChangeToFalse(int id)
         {
-            return RedirectToAction("Index");
+            _guideService.TChangeToFalseByGuide(id);
+            return RedirectToAction("Index","Guide", new { area = "Admin" });
+        }
+
+        public IActionResult DeleteGuide(int id)
+        {
+            var guide = _guideService.TGetById(id);
+            _guideService.TDelete(guide);
+            return RedirectToAction("Index", "Guide", new { area = "Admin" });
         }
 
     }

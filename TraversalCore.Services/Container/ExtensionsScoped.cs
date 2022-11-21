@@ -23,6 +23,8 @@ namespace TraversalCore.Services.Container
             services.AddScoped<IReservationRepository, EfReservationRepository>();
             services.AddScoped<IGuideService, GuideManager>();
             services.AddScoped<IGuideRepository, EfGuideRepository>();
+            services.AddScoped<IExcelService, ExcelManager>();
+            services.AddScoped<IPdfService, PdfManager>();
 
         }
     }
