@@ -449,3 +449,10 @@ C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\bin\Debug\net5.0\run
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll
 C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\PdfReport\Index.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\bin\Debug\net5.0\MailKit.dll
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\bin\Debug\net5.0\MimeKit.dll
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Mail\SendMail.cshtml.g.cs
+C:\Users\fatih\source\repos\TraversalCore\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\City\Index.cshtml.g.cs

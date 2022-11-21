@@ -10,5 +10,7 @@ namespace TraversalCore.Data.EntityFramework.Repository.Abstract
 {
     public interface IGuideRepository : IGenericRepository<Guide>
     {
+        void ChangeToTrueByGuide(int id);
+        void ChangeToFalseByGuide(int id);
     }
 }

@@ -7,11 +7,20 @@ using System.IO;
 using System.Linq;
 using TraversalCore.Data.EntityFramework.Contexts;
 using TraversalCore.Mvc.Models;
+using TraversalCore.Services.Abstract;
 
 namespace TraversalCore.Mvc.Controllers
 {
     public class ExcelController : Controller
     {
+
+        private readonly IExcelService _excelService;
+
+        public ExcelController(IExcelService excelService)
+        {
+            _excelService = excelService;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -36,22 +45,8 @@ namespace TraversalCore.Mvc.Controllers
 
         public IActionResult StaticExcelReport()
         {
-            ExcelPackage excel = new ExcelPackage();                    
-            var workSheet = excel.Workbook.Worksheets.Add("Sayfa1");        //Öncelikle çalışma sayfası oluşturuyoruz.
-            workSheet.Cells[1, 1].Value = "Rota";                           // Bu çalışma sayfasının içerisine 1. satır 1. sütuna Rota de 
-            workSheet.Cells[1, 2].Value = "Rehber";                         // 1. satır 2. sütuna 
-            workSheet.Cells[1, 3].Value = "Kontenjan";
-
-            workSheet.Cells[2, 1].Value = "Gürcistan Batum Turu";
-            workSheet.Cells[2, 2].Value = "Kadir Yıldız";
-            workSheet.Cells[2, 3].Value = "50";
-
-            workSheet.Cells[3, 1].Value = "Sırbistan Makedonya Turu";
-            workSheet.Cells[3, 2].Value = "Zeynep Öztürk";
-            workSheet.Cells[3, 2].Value = "35";
-
-            var bytes = excel.GetAsByteArray();                            //Exceli byte formatına dönüştürdük 
-            return File(bytes, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "dosya2.xlsx");     //Geriye Dosya değerinde bir byte ve 
+            return File(_excelService.ExcelList(DestinationList()), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" , "YeniExcel.xlsx");
+            //return File(bytes, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "dosya2.xlsx");     //Geriye Dosya değerinde bir byte ve 
 
         }
 
