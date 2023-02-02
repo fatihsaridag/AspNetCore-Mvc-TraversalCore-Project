@@ -11,6 +11,7 @@
           "EPPlus": "6.1.0",
           "FluentValidation": "11.2.2",
           "FluentValidation.AspNetCore": "11.2.2",
+          "TraversalCore.DTOs": "1.0.0",
           "TraversalCore.Data": "1.0.0",
           "TraversalCore.Shared": "1.0.0"
         },
@@ -1124,6 +1125,11 @@
           "TraversalCore.Data.dll": {}
         }
       },
+      "TraversalCore.DTOs/1.0.0": {
+        "runtime": {
+          "TraversalCore.DTOs.dll": {}
+        }
+      },
       "TraversalCore.Entity/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.7",
@@ -1949,6 +1955,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "TraversalCore.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TraversalCore.DTOs/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

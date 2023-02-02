@@ -22,3 +22,15 @@ C:\Users\fatih\Source\Repos\TraversalCore\TraversalCore.Shared\obj\Debug\net5.0\
 C:\Users\fatih\Source\Repos\TraversalCore\TraversalCore.Shared\obj\Debug\net5.0\refint\TraversalCore.Shared.dll
 C:\Users\fatih\Source\Repos\TraversalCore\TraversalCore.Shared\obj\Debug\net5.0\TraversalCore.Shared.pdb
 C:\Users\fatih\Source\Repos\TraversalCore\TraversalCore.Shared\obj\Debug\net5.0\ref\TraversalCore.Shared.dll
+C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Shared\bin\Debug\net5.0\TraversalCore.Shared.deps.json
+C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Shared\bin\Debug\net5.0\TraversalCore.Shared.dll
+C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Shared\bin\Debug\net5.0\TraversalCore.Shared.pdb
+C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Shared\obj\Debug\net5.0\TraversalCore.Shared.csproj.AssemblyReference.cache
+C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Shared\obj\Debug\net5.0\TraversalCore.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Shared\obj\Debug\net5.0\TraversalCore.Shared.AssemblyInfoInputs.cache
+C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Shared\obj\Debug\net5.0\TraversalCore.Shared.AssemblyInfo.cs
+C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Shared\obj\Debug\net5.0\TraversalCore.Shared.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Shared\obj\Debug\net5.0\TraversalCore.Shared.dll
+C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Shared\obj\Debug\net5.0\refint\TraversalCore.Shared.dll
+C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Shared\obj\Debug\net5.0\TraversalCore.Shared.pdb
+C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Shared\obj\Debug\net5.0\ref\TraversalCore.Shared.dll

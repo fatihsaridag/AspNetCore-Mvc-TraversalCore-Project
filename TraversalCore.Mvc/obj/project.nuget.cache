@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m+pEu5w8VPB5GkGGYuSRJtyoxdlUG1KUuaz3CC+PPfnzdie7Z/ixVczxTzaFicwol8upO3ksnzqGjhy8cJLxYg==",
+  "dgSpecHash": "jSOz7CNvKwVDRBdB3ps60sHY8c9rkcsgyjO8cB/MeKsk/UXuEFx/X73p/oOsDdAgOjVLCO3/wfKK36kaKq7MuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Mvc\\TraversalCore.Mvc.csproj",
+  "projectFilePath": "C:\\Users\\fatih\\source\\repos\\AspNetCore-Mvc-TraversalCore-Project\\TraversalCore.Mvc\\TraversalCore.Mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fatih\\.nuget\\packages\\closedxml\\0.97.0\\closedxml.0.97.0.nupkg.sha512",
     "C:\\Users\\fatih\\.nuget\\packages\\documentformat.openxml\\2.16.0\\documentformat.openxml.2.16.0.nupkg.sha512",

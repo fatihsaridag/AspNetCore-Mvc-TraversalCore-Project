@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ltE4l/rsumJlwKp2hY6QGIJ8omruU4woaqbaeKgOvStJgNlyHhAmTNmHpzr2vNlDhINxa4cLLWEpcZMlN7jwTg==",
+  "dgSpecHash": "uPPCEGE4MeRArH68hUJydMyxjF3POg+xBF0OB5cKI8IrUCC4D8u+0fRg3MfiltKZ8R9bobqI3mgHc2KdZPv4yg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Services\\TraversalCore.Services.csproj",
+  "projectFilePath": "C:\\Users\\fatih\\source\\repos\\AspNetCore-Mvc-TraversalCore-Project\\TraversalCore.Services\\TraversalCore.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fatih\\.nuget\\packages\\epplus\\6.1.0\\epplus.6.1.0.nupkg.sha512",
     "C:\\Users\\fatih\\.nuget\\packages\\epplus.interfaces\\6.1.0\\epplus.interfaces.6.1.0.nupkg.sha512",

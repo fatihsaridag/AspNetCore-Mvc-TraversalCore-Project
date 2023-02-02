@@ -1,0 +1,12 @@
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.DTOs\bin\Debug\net5.0\TraversalCore.DTOs.deps.json
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.DTOs\bin\Debug\net5.0\TraversalCore.DTOs.dll
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.DTOs\bin\Debug\net5.0\TraversalCore.DTOs.pdb
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.DTOs\obj\Debug\net5.0\TraversalCore.DTOs.csproj.AssemblyReference.cache
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.DTOs\obj\Debug\net5.0\TraversalCore.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.DTOs\obj\Debug\net5.0\TraversalCore.DTOs.AssemblyInfoInputs.cache
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.DTOs\obj\Debug\net5.0\TraversalCore.DTOs.AssemblyInfo.cs
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.DTOs\obj\Debug\net5.0\TraversalCore.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.DTOs\obj\Debug\net5.0\TraversalCore.DTOs.dll
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.DTOs\obj\Debug\net5.0\refint\TraversalCore.DTOs.dll
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.DTOs\obj\Debug\net5.0\TraversalCore.DTOs.pdb
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.DTOs\obj\Debug\net5.0\ref\TraversalCore.DTOs.dll

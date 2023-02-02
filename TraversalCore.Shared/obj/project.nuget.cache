@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wTPrdaEcNFKLnEyhRUX+WVbgtjTRFigT3gpxIP9jUI3yrRDiw+QrN5IVOpnEg1BFd1KxC9UsEnLhpbUBTwludA==",
+  "dgSpecHash": "NjGhFTLcmQ02UyXMBi6KFGlM+xoYmiOlidocDrBYwev75IAcq3626ZxaYw611CNpCBWn3nW52ijR6911szWUrg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fatih\\source\\repos\\TraversalCore\\TraversalCore.Shared\\TraversalCore.Shared.csproj",
+  "projectFilePath": "C:\\Users\\fatih\\source\\repos\\AspNetCore-Mvc-TraversalCore-Project\\TraversalCore.Shared\\TraversalCore.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fatih\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",
     "C:\\Users\\fatih\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512",

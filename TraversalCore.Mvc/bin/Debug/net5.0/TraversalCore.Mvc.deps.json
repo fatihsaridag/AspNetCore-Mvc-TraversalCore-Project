@@ -43,8 +43,10 @@
           "Microsoft.EntityFrameworkCore.Design": "5.0.7",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "Serilog.Extensions.Logging.File": "3.0.0",
+          "TraversalCore.Data": "1.0.0",
           "TraversalCore.Entity": "1.0.0",
           "TraversalCore.Services": "1.0.0",
+          "TraversalCore.Shared": "1.0.0",
           "iTextSharp.LGPLv2.Core": "1.9.2",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "5.0.0.0",
@@ -2877,6 +2879,14 @@
           "TraversalCore.Data.dll": {}
         }
       },
+      "TraversalCore.DTOs/1.0.0": {
+        "runtime": {
+          "TraversalCore.DTOs.dll": {}
+        },
+        "compile": {
+          "TraversalCore.DTOs.dll": {}
+        }
+      },
       "TraversalCore.Entity/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.7",
@@ -2895,6 +2905,7 @@
           "EPPlus": "6.1.0",
           "FluentValidation": "11.2.2",
           "FluentValidation.AspNetCore": "11.2.2",
+          "TraversalCore.DTOs": "1.0.0",
           "TraversalCore.Data": "1.0.0",
           "TraversalCore.Shared": "1.0.0"
         },
@@ -6095,6 +6106,11 @@
       "hashPath": "xlparser.1.5.2.nupkg.sha512"
     },
     "TraversalCore.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TraversalCore.DTOs/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

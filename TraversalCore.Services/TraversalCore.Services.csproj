@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TraversalCore.Data\TraversalCore.Data.csproj" />
+    <ProjectReference Include="..\TraversalCore.DTOs\TraversalCore.DTOs.csproj" />
     <ProjectReference Include="..\TraversalCore.Shared\TraversalCore.Shared.csproj" />
   </ItemGroup>
 

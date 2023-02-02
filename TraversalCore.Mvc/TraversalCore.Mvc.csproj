@@ -22,8 +22,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TraversalCore.Data\TraversalCore.Data.csproj" />
     <ProjectReference Include="..\TraversalCore.Entity\TraversalCore.Entity.csproj" />
     <ProjectReference Include="..\TraversalCore.Services\TraversalCore.Services.csproj" />
+    <ProjectReference Include="..\TraversalCore.Shared\TraversalCore.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
