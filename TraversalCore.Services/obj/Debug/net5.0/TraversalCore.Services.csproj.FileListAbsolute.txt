@@ -41,9 +41,7 @@ C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.S
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Services\bin\Debug\net5.0\TraversalCore.Services.pdb
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Services\bin\Debug\net5.0\TraversalCore.Data.dll
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Services\bin\Debug\net5.0\TraversalCore.Entity.dll
-C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Services\bin\Debug\net5.0\TraversalCore.Shared.dll
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Services\bin\Debug\net5.0\TraversalCore.Data.pdb
-C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Services\bin\Debug\net5.0\TraversalCore.Shared.pdb
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Services\bin\Debug\net5.0\TraversalCore.Entity.pdb
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Services\obj\Debug\net5.0\TraversalCore.Services.csproj.AssemblyReference.cache
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Services\obj\Debug\net5.0\TraversalCore.Services.GeneratedMSBuildEditorConfig.editorconfig

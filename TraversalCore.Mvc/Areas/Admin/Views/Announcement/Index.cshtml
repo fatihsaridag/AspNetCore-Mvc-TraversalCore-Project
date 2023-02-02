@@ -1,0 +1,25 @@
+﻿@model List<AnnouncementListViewModel>
+@using TraversalCore.Mvc.Models
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Index</h1>
+
+<table class="table table-bordered table-striped">
+    <tr>
+        <td>#</td>
+        <td>Duyuru Başlığı</td>
+        <td>Duyuru Açıklaması</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.AnnouncementId</td>
+            <td>@item.Title</td>
+            <td>@item.Content</td>
+        </tr>
+    }
+</table>

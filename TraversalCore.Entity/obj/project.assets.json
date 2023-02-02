@@ -327,19 +327,6 @@
             "related": ".xml"
           }
         }
-      },
-      "TraversalCore.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.7"
-        },
-        "compile": {
-          "bin/placeholder/TraversalCore.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TraversalCore.Shared.dll": {}
-        }
       }
     }
   },
@@ -826,18 +813,12 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "TraversalCore.Shared/1.0.0": {
-      "type": "project",
-      "path": "../TraversalCore.Shared/TraversalCore.Shared.csproj",
-      "msbuildProject": "../TraversalCore.Shared/TraversalCore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.7",
-      "Microsoft.Extensions.Identity.Stores >= 5.0.7",
-      "TraversalCore.Shared >= 1.0.0"
+      "Microsoft.Extensions.Identity.Stores >= 5.0.7"
     ]
   },
   "packageFolders": {
@@ -850,7 +831,7 @@
       "projectName": "TraversalCore.Entity",
       "projectPath": "C:\\Users\\fatih\\source\\repos\\AspNetCore-Mvc-TraversalCore-Project\\TraversalCore.Entity\\TraversalCore.Entity.csproj",
       "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fatih\\Source\\Repos\\AspNetCore-Mvc-TraversalCore-Project\\TraversalCore.Entity\\obj\\",
+      "outputPath": "C:\\Users\\fatih\\source\\repos\\AspNetCore-Mvc-TraversalCore-Project\\TraversalCore.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -866,11 +847,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "C:\\Users\\fatih\\source\\repos\\AspNetCore-Mvc-TraversalCore-Project\\TraversalCore.Shared\\TraversalCore.Shared.csproj": {
-              "projectPath": "C:\\Users\\fatih\\source\\repos\\AspNetCore-Mvc-TraversalCore-Project\\TraversalCore.Shared\\TraversalCore.Shared.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

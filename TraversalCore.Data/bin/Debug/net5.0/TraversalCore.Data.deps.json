@@ -13,8 +13,7 @@
           "Microsoft.EntityFrameworkCore.Design": "5.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.7",
-          "TraversalCore.Entity": "1.0.0",
-          "TraversalCore.Shared": "1.0.0"
+          "TraversalCore.Entity": "1.0.0"
         },
         "runtime": {
           "TraversalCore.Data.dll": {}
@@ -1131,19 +1130,10 @@
       "TraversalCore.Entity/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.7",
-          "Microsoft.Extensions.Identity.Stores": "5.0.7",
-          "TraversalCore.Shared": "1.0.0"
+          "Microsoft.Extensions.Identity.Stores": "5.0.7"
         },
         "runtime": {
           "TraversalCore.Entity.dll": {}
-        }
-      },
-      "TraversalCore.Shared/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.7"
-        },
-        "runtime": {
-          "TraversalCore.Shared.dll": {}
         }
       }
     }
@@ -1869,11 +1859,6 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "TraversalCore.Entity/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TraversalCore.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -7,10 +7,11 @@
   <ItemGroup>
     <ProjectReference Include="..\TraversalCore.Data\TraversalCore.Data.csproj" />
     <ProjectReference Include="..\TraversalCore.DTOs\TraversalCore.DTOs.csproj" />
-    <ProjectReference Include="..\TraversalCore.Shared\TraversalCore.Shared.csproj" />
+    <ProjectReference Include="..\TraversalCore.Entity\TraversalCore.Entity.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
     <PackageReference Include="EPPlus" Version="6.1.0" />
     <PackageReference Include="FluentValidation" Version="11.2.2" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />

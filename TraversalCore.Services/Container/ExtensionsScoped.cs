@@ -34,6 +34,8 @@ namespace TraversalCore.Services.Container
             services.AddScoped<IContactUsService, ContactUsManager>();
 
 
+            services.AddScoped<IAnnouncementRepository, EfAnnouncementRepository>();
+            services.AddScoped<IAnnouncementService, AnnouncementManager>();
 
         }
     }

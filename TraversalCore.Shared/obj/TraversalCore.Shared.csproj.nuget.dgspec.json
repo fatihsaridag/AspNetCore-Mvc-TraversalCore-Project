@@ -11,7 +11,7 @@
         "projectName": "TraversalCore.Shared",
         "projectPath": "C:\\Users\\fatih\\source\\repos\\AspNetCore-Mvc-TraversalCore-Project\\TraversalCore.Shared\\TraversalCore.Shared.csproj",
         "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fatih\\Source\\Repos\\AspNetCore-Mvc-TraversalCore-Project\\TraversalCore.Shared\\obj\\",
+        "outputPath": "C:\\Users\\fatih\\source\\repos\\AspNetCore-Mvc-TraversalCore-Project\\TraversalCore.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.7, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -56,11 +50,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }

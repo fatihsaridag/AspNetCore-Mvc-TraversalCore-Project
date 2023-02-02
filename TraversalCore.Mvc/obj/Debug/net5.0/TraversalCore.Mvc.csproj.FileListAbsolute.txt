@@ -617,11 +617,9 @@ C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.M
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\TraversalCore.Data.dll
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\TraversalCore.Entity.dll
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\TraversalCore.Services.dll
-C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\TraversalCore.Shared.dll
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\TraversalCore.Entity.pdb
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\TraversalCore.Services.pdb
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\TraversalCore.Data.pdb
-C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\TraversalCore.Shared.pdb
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.csproj.AssemblyReference.cache
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.AssemblyInfoInputs.cache
@@ -729,3 +727,9 @@ C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.M
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\TraversalCore.DTOs.dll
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\TraversalCore.DTOs.pdb
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\ContactUs\Index.cshtml.g.cs
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Announcement\Index.cshtml.g.cs
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll

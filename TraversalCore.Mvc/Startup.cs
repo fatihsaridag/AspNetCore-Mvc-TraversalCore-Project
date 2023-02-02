@@ -1,3 +1,4 @@
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -46,9 +47,9 @@ namespace TraversalCore.Mvc
             services.AddDbContext<Context>();
 
             services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
-            services.AddControllersWithViews();
+            services.AddControllersWithViews().AddFluentValidation();
             services.ContainerDependencies();
-
+            services.AddAutoMapper(typeof(Startup));
 
             services.AddMvc(config =>
             {
