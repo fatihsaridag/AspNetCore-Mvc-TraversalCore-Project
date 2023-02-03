@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using FluentValidation;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,8 +7,10 @@ using System.Text;
 using System.Threading.Tasks;
 using TraversalCore.Data.EntityFramework.Repository.Abstract;
 using TraversalCore.Data.EntityFramework.Repository.Concrete;
+using TraversalCore.DTOs.AnnouncementDTOs;
 using TraversalCore.Services.Abstract;
 using TraversalCore.Services.Concrete;
+using TraversalCore.Services.ValidationRules;
 
 namespace TraversalCore.Services.Container
 {
@@ -38,5 +41,13 @@ namespace TraversalCore.Services.Container
             services.AddScoped<IAnnouncementService, AnnouncementManager>();
 
         }
+
+        public static void CustomerValidator(this IServiceCollection services)
+        {
+            services.AddTransient<IValidator<AnnouncementAddDto>, AnnouncementValidator>();
+            services.AddTransient<IValidator<AnnouncementUpdateDto>, AnnouncementUpdateValidator>();
+
+        }
+
     }
 }

@@ -1180,6 +1180,9 @@
         }
       },
       "TraversalCore.DTOs/1.0.0": {
+        "dependencies": {
+          "TraversalCore.Entity": "1.0.0"
+        },
         "runtime": {
           "TraversalCore.DTOs.dll": {}
         }

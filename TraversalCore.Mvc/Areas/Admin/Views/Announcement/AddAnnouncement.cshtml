@@ -1,0 +1,43 @@
+﻿@model AnnouncementAddDto
+
+
+@{
+    ViewData["Title"] = "AddAnnouncement";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+
+        </div>
+        <div class="col-md-6">
+        <form  href="Admin/Announcement/AddAnnouncement" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <h3 class="text-center text-info"></h3>
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+                <input asp-for="Content" class="form-control" />
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <input type="submit" value="Kaydet" class="btn btn-primary" />
+            </div>
+        </form>
+
+        </div>
+        <div class="col-md-3">
+        </div>
+    </div>
+</div>
+
+ 
+
+

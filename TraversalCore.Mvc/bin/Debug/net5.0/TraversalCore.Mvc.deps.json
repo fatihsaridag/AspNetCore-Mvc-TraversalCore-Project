@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "TraversalCore.Mvc/1.0.0": {
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "ClosedXML": "0.97.0",
           "EPPlus": "6.1.0",
           "FluentValidation": "11.2.2",
@@ -2936,6 +2937,9 @@
         }
       },
       "TraversalCore.DTOs/1.0.0": {
+        "dependencies": {
+          "TraversalCore.Entity": "1.0.0"
+        },
         "runtime": {
           "TraversalCore.DTOs.dll": {}
         },

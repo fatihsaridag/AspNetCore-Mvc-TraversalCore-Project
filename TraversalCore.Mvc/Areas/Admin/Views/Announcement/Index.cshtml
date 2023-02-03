@@ -1,4 +1,5 @@
-﻿@model List<AnnouncementListViewModel>
+﻿@model List<AnnouncementListDto>
+
 @using TraversalCore.Mvc.Models
 
 @{
@@ -13,6 +14,8 @@
         <td>#</td>
         <td>Duyuru Başlığı</td>
         <td>Duyuru Açıklaması</td>
+        <td>Düzenle</td>
+        <td>Sil</td>
     </tr>
     @foreach (var item in Model)
     {
@@ -20,6 +23,10 @@
             <td>@item.AnnouncementId</td>
             <td>@item.Title</td>
             <td>@item.Content</td>
+            <td><a class="btn btn-outline-primary" href="/Admin/Announcement/UpdateAnnouncement/@item.AnnouncementId">Düzenle</a></td>
+            <td><a class="btn btn-outline-danger" href="/Admin/Announcement/DeleteAnnouncement/@item.AnnouncementId">Sil</a></td>
         </tr>
     }
 </table>
+
+<a href="/Admin/Announcement/AddAnnouncement" class="btn btn-outline-success">Duyuru Ekle</a>

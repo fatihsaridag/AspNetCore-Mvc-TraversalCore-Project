@@ -1,27 +1,21 @@
+using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc.Authorization;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using TraversalCore.Data.EntityFramework.Contexts;
-using TraversalCore.Data.EntityFramework.Repository.Abstract;
-using TraversalCore.Data.EntityFramework.Repository.Concrete;
+using TraversalCore.DTOs.AnnouncementDTOs;
 using TraversalCore.Entity.Concrete;
 using TraversalCore.Mvc.Models;
-using TraversalCore.Services.Abstract;
-using TraversalCore.Services.Concrete;
 using TraversalCore.Services.Container;
+using TraversalCore.Services.Mapping.AutoMapperProfile;
+using TraversalCore.Services.ValidationRules;
 
 namespace TraversalCore.Mvc
 {
@@ -49,7 +43,9 @@ namespace TraversalCore.Mvc
             services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
             services.AddControllersWithViews().AddFluentValidation();
             services.ContainerDependencies();
-            services.AddAutoMapper(typeof(Startup));
+            services.CustomerValidator();
+            services.AddAutoMapper(typeof(MapProfile));
+
 
             services.AddMvc(config =>
             {

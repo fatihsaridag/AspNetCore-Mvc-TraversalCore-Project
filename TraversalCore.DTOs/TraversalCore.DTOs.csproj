@@ -8,4 +8,8 @@
     <Folder Include="ContactDTOs\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TraversalCore.Entity\TraversalCore.Entity.csproj" />
+  </ItemGroup>
+
 </Project>
