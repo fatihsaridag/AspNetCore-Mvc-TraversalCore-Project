@@ -45,7 +45,7 @@ namespace TraversalCore.Mvc
             services.ContainerDependencies();
             services.CustomerValidator();
             services.AddAutoMapper(typeof(MapProfile));
-
+            services.AddHttpClient();
 
             services.AddMvc(config =>
             {

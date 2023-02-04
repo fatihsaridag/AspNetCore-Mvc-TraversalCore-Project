@@ -1,3 +1,11 @@
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.csproj.AssemblyReference.cache
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.AssemblyInfoInputs.cache
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.AssemblyInfo.cs
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.csproj.CoreCompileInputs.cache
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.RazorAssemblyInfo.cache
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.RazorAssemblyInfo.cs
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\appsettings.json
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\TraversalCore.Mvc.exe
@@ -168,15 +176,7 @@ C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.M
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\TraversalCore.Entity.pdb
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\TraversalCore.Services.pdb
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\TraversalCore.DTOs.pdb
-C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.csproj.AssemblyReference.cache
-C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.AssemblyInfoInputs.cache
-C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.AssemblyInfo.cs
-C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.csproj.CoreCompileInputs.cache
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.RazorAssemblyInfo.cache
-C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.RazorAssemblyInfo.cs
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\scopedcss\bundle\TraversalCore.Mvc.styles.css
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\staticwebassets\TraversalCore.Mvc.StaticWebAssets.Manifest.cache
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\staticwebassets\TraversalCore.Mvc.StaticWebAssets.Pack.cache
@@ -187,7 +187,9 @@ C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.M
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.TagHelpers.input.cache
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.TagHelpers.output.cache
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.RazorCoreGenerate.cache
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Announcement\AddAnnouncement.cshtml.g.cs
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Announcement\Index.cshtml.g.cs
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Announcement\UpdateAnnouncement.cshtml.g.cs
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\City\Index.cshtml.g.cs
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Comment\Index.cshtml.g.cs
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\ContactUs\Index.cshtml.g.cs
@@ -274,5 +276,6 @@ C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.M
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.pdb
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\TraversalCore.Mvc.genruntimeconfig.cache
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\ref\TraversalCore.Mvc.dll
-C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Announcement\AddAnnouncement.cshtml.g.cs
-C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Announcement\UpdateAnnouncement.cshtml.g.cs
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\VisitorApi\Index.cshtml.g.cs
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\VisitorApi\AddVisitor.cshtml.g.cs
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\VisitorApi\UpdateVisitor.cshtml.g.cs
