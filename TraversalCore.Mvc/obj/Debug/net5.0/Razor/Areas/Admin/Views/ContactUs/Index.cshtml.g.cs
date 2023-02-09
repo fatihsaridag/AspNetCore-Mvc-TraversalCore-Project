@@ -27,14 +27,14 @@ using TraversalCore.DTOs.AnnouncementDTOs;
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\Areas\Admin\Views\_ViewImports.cshtml"
+#line 4 "C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\Areas\Admin\Views\_ViewImports.cshtml"
 using TraversalCore.Mvc.Areas.Admin.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9637e435c7fbe63ee7ad4092af142cc04527ae92", @"/Areas/Admin/Views/ContactUs/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e377ecca154f7cf523c761df4ed3071ebe792fe2", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0fdd38a6ab0ac21ac90d06f9567bf77df1fe3d31", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_ContactUs_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<ContactUs>>
     #nullable disable

@@ -1,0 +1,6 @@
+2023-02-08T17:32:57.3289001+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-02-08T17:32:57.3346723+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-02-08T17:32:57.3347431+03:00  [INF] Content root path: "C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc" (b5d60022)
+2023-02-08T17:39:16.8476544+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-02-08T17:39:16.8530221+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-02-08T17:39:16.8530949+03:00  [INF] Content root path: "C:\Users\fatih\Source\Repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc" (b5d60022)

@@ -27,14 +27,14 @@ using TraversalCore.DTOs.AnnouncementDTOs;
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\Areas\Admin\Views\_ViewImports.cshtml"
+#line 4 "C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\Areas\Admin\Views\_ViewImports.cshtml"
 using TraversalCore.Mvc.Areas.Admin.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ffd217ddfdfd5aa6a398858a70ece0778b6d66b3", @"/Areas/Admin/Views/Shared/Components/_DestinationStatistic2/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e377ecca154f7cf523c761df4ed3071ebe792fe2", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0fdd38a6ab0ac21ac90d06f9567bf77df1fe3d31", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_Shared_Components__DestinationStatistic2_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
