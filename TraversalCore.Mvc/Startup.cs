@@ -12,6 +12,8 @@ using System.IO;
 using TraversalCore.Data.EntityFramework.Contexts;
 using TraversalCore.DTOs.AnnouncementDTOs;
 using TraversalCore.Entity.Concrete;
+using TraversalCore.Mvc.CQRS.Commands.DestinationCommands;
+using TraversalCore.Mvc.CQRS.Handlers.DestinationHandlers;
 using TraversalCore.Mvc.Models;
 using TraversalCore.Services.Container;
 using TraversalCore.Services.Mapping.AutoMapperProfile;
@@ -38,8 +40,15 @@ namespace TraversalCore.Mvc
                 x.SetMinimumLevel(LogLevel.Debug);
                 x.AddDebug();
             });
-            services.AddDbContext<Context>();
 
+            services.AddScoped<GetAllDestinationQueryHandler>();
+            services.AddScoped<GetDestinationByIdQueryHandler>();
+            services.AddScoped<CreateDestinationCommandHandler>();
+            services.AddScoped<RemoveDestinationCommandHandler>();
+            services.AddScoped<UpdateDestinationCommandHandler>();
+
+
+            services.AddDbContext<Context>();
             services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
             services.AddControllersWithViews().AddFluentValidation();
             services.ContainerDependencies();

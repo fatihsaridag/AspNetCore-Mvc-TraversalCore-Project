@@ -283,3 +283,6 @@ C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.M
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Views\ExchangeApi\Index.cshtml.g.cs
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Views\BookingHotelSearch\Index.cshtml.g.cs
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Views\BookingHotelSearch\GetCityDestID.cshtml.g.cs
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\DestinationCQRS\Index.cshtml.g.cs
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\DestinationCQRS\GetDestination.cshtml.g.cs
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\DestinationCQRS\AddDestination.cshtml.g.cs
