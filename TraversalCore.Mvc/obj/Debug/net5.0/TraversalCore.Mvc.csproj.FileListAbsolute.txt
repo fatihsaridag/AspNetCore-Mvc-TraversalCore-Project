@@ -286,3 +286,9 @@ C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.M
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\DestinationCQRS\Index.cshtml.g.cs
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\DestinationCQRS\GetDestination.cshtml.g.cs
 C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\DestinationCQRS\AddDestination.cshtml.g.cs
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\MediatR.dll
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\MediatR.Contracts.dll
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\GuideMediatR\GetGuides.cshtml.g.cs
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\GuideMediatR\Index.cshtml.g.cs
+C:\Users\fatih\source\repos\AspNetCore-Mvc-TraversalCore-Project\TraversalCore.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\GuideMediatR\AddGuides.cshtml.g.cs
